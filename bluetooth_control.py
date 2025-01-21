@@ -40,7 +40,8 @@ class BluetoothAudioApp:
                 messagebox.showerror("Error", f"Failed to scan for devices: {result.stderr}")
                 return
 
-            # Parse the output to extract device names and BD_ADDR
+            # Parse onnect button to initiate the connection
+
             self.device_list = self.parse_bluetooth_inquiry(result.stdout)
 
             if not self.device_list:
@@ -163,7 +164,7 @@ class BluetoothAudioApp:
                     sinks = result.stdout.splitlines()
                     for line in sinks:
                         if bd_addr in line:
-                            result = subprocess.run(["pactl", "set-default-sink", line.split()[0]], capture_output=True, text=True)
+                            result = subprocess.run(["pacctl", "set-default-sink", line.split()[0]], capture_output=True, text=True)
                             if result.returncode != 0:
                                 messagebox.showerror("PulseAudio Error", f"Failed to set PulseAudio output: {result.stderr}")
                             else:
