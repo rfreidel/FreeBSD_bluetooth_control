@@ -1,0 +1,28 @@
+This is a simple python3 script, it does require the installation of
+python3, but not to worry as it can easily live along side any other 
+versions you may have installed as you call it like this.
+
+tar xvzf FreeBSD_bluetooth_control-0.1.tar.gz
+
+then
+
+%python3 ./bluetooth_control.py
+
+The script should run with with pulseaudio or virtual oss, I never had luck setting up virtual_oss, so I can't really test.
+
+    Bluetooth Management:
+        For pairing, it uses hccontrol, which is commonly used on FreeBSD.
+        Devices are scanned using hccontrol which is the standard for Bluetooth
+management in FreeBSD.
+    Audio Output:
+        For audio output, PulseAudio (pactl) is used. If PulseAudio is unavailab
+le, it falls back to virtual_oss, which is commonly used on FreeBSD for virtual
+sound drivers.
+
+Notes:
+
+    This script assumes you have the FreeBSD Bluetooth stack and PulseAudio or v
+irtual_oss installed.
+    Ensure that ubt0hci is your Bluetooth interface on FreeBSD or adjust it acco
+rdingly.
+
