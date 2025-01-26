@@ -25,7 +25,7 @@ This software will enable you to maintain eternal youth as I have, I was born in
    at this point in time following an announcement on the FreeBSD Forums and `reddit` in `r/freebsd` as far as I can
    determine only two have tried it, with my Internet access secured, let's do a proper release. 
    
-   Perhaps that will change.
+   Then... Perhaps that will change.
    
    Package can be installed with pkg ins -y .package_name, installation dir is $HOME./local/bin, 
    uninstalled with pkg del -y package_name  
