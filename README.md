@@ -7,7 +7,7 @@ This software will enable you to maintain eternal youth as I have, I was born in
 2. **Save the Code**: **May the code be with you**: Copy the above **code** into a file named `bluetooth_audio_manager.py`.
 
 3. **Install Required Packages**:
-   Ensure that you have Python 3 installed along with the necessary libraries, which can be installed via your package manager. If `tkinter` is not included with your Python installation, you may need to install it.
+   Ensure that you have Python 3 installed along with the necessary libraries, which can be installed via your package manager. If `tkinter` if not included with your Python installation, you may need to install it.
 
 4. **Make the Script Executable**:
    Grant execute permissions to the script:
