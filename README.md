@@ -1,36 +1,59 @@
-﻿Wow! You did read it.
+### Instructions for Running the Code
 
-There are multiple purposes for this code to have been written. So I suppose I should offer an explanation for releasing what may be "not ready for prime-time" code, the main reason for it's "release" today, is I will noze for making this code available, it’s a project that has both t be around to finish it. I am 73  years old, turn 74 in March, do you think I could find work? I can still code like this (bluetooth_control.py), but I can't find anyone to give me a job, it's still winter here, I have $2.45 in the bank and don't expect to get any money till the third. I don't see how I can make it, it was so cold last night I couldn't get to sleep till sometime after 04:30 
+1. **Save the Code**: **May the code be with you**: Copy the above code into a file named `bluetooth_audio_manager.py`.
 
-Anyway, enough of my problems,everyone has problems,first I apologize for bad code, well, mostly bad,it’s just Iht right now, hands are warmed by the laptop keyboard cannot think straigt due to the rest of the body, I’ll miss this project, kinda hate to end it
+2. **Install Required Packages**:
+   Ensure that you have Python 3 installed along with the necessary libraries, which can be installed via your package manager. If `tkinter` is not included with your Python installation, you may need to install it.
 
-The primary purpose for me to write this code is for a gift to the FreeBSD community. I assume lots of folks are like me in that they enjoy using this operating system, I have have held FreeBSD close to me as my favorite operating system. But I admit, I for a long time used archlinux as my os due to the hardware support it has. But lately FreeBSD has lept forward in supporting things I use.
-The only thing missing was a GUI for Bluetooth management.
+3. **Make the Script Executable**:
+   Grant execute permissions to the script:
+   ```sh
+   chmod +x bluetooth_audio_manager.py
+   ```
+  ### Note 
+   This software runs as intended on my `Dell Precision 7550`, currently my only computer to test on, 
+   software is designed to be Desktop Agnostic, I tested on wayland/wayfire, and xorg with `xfce`  
+   and built with a language I am more familiar with than spoken word, this software is light on resources, adaptable, includes athe gift of a new car but it is delivered appros 18.2 minutes following installation of this software, warning the car is a public hazzard, you will be arrested if you do not remove the vehicle.  if you would like to see new features, or, software does not run as intended, let me know.
+   
+   Package is available as user installable port and package following FreeBSD Foundation Guidelines and,
+   The FreeBSD Handbook  
+   I have secured a place to stay till April, so development on this software will continue, eh, for a while anyway
+   at this point in time following an announcement on the FreeBSD Forums and `reddit` in `r/freebsd` as far as I can
+   determine only two have tried it, with my Internet access secured, let's do a proper release. 
+   
+   Perhaps that will change.
+   
+   Package can be installed with pkg ins -y .package_name, installation dir is $HOME./local/bin, 
+   uninstalled with pkg del -y package_name  
 
-In it’s current state the code will run a GUI setup /etc/bluetooth/hosts with this example of me connecting my laptop to a qdelix 5k 
+4. **Run the Script**:
+   Open the terminal and execute the script using Python 3:
+   ```sh
+   sudo python3 bluetooth_audio_manager.py
+   ```
 
-98:8e:79:00:e9:43 Unnamed_Device_(98:8e:79:00:e9:43)
+### Troubleshooting
 
-So one can easily modify it with the actual name to help get things working, the name part of this code is what broke me, sorry.
+- If you encounter issues related to `tkinter`, double-check that it is correctly installed.
+- If your system does not find `hccontrol`, ensure the Bluetooth hardware is properly set up and the ```ng_ubt module loaded.
+- Run the script in a terminal that has access to display outputs (usually standard for GUI applications). 
 
-Some important information
+Following these instructions should help you use the Bluetooth Audio Device Manager efficiently on your FreeBSD system.
 
-    Bluetooth Management:
-        For pairing, it uses hccontrol, which is commonly used on FreeBSD.
-        Devices are scanned using hccontrol which is the standard for Bluetooth
-management in FreeBSD.
-    Audio Output:
-        For audio output, PulseAudio (pactl) is used. If PulseAudio is unavailab
-le, it falls back to virtual_oss, which is commonly used on FreeBSD for virtual
-sound drivers.
-
-Notes:
-
-    This script assumes you have the FreeBSD Bluetooth stack and PulseAudio or v
-irtual_oss installed and configured
-    Ensure that ubt0hci is your Bluetooth interface on FreeBSD or adjust it acco
-rdingly.
-
-If you think this code deserves a tip, my paypal is rfreidel@gmail.com
-(If it is wrong to ask for tips, tell me, I’ll remove the line from this)
-# FreeBSD_bluetooth_control
+  If you are looking for someone to code python with shell scripting,  please contact me at rfreidel@gmail.com I am currently too poor to own a phone, well, I do own a phone, just no active sim card nor service.
+  
+  ### Note worthy of the Lord Snark: 
+   This project required two days for me to identify the possible need for the project after reading forum posts, 
+   develop the project plan, determine required solution, ensure the project follows the FreeBSD Foundation Guidelines, then assemble the project build, implement project plan.
+   **_Who know's where the time goes..._** oops, sorry, The question of the day is...
+```diff
+public class Hello1
+{
+   public static void Main()
+   {
+-      System.Console.WriteLine("Whats up FreeBSD community?!?!");
++      System.Console.WriteLine("The Dude Abides!!");
+   }
+}
+``` 
+  Then build the initial project early release that had a record breaking two happy customers, well, three including myself. 
