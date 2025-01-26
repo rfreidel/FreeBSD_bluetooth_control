@@ -1,6 +1,6 @@
 ### Instructions for Running the Code
 
-1. **Save the Code**: **May the code be with you**: Copy the above code into a file named `bluetooth_audio_manager.py`.
+1. **Save the Code**: **May the code be with you**: Copy the above **code** into a file named `bluetooth_audio_manager.py`.
 
 2. **Install Required Packages**:
    Ensure that you have Python 3 installed along with the necessary libraries, which can be installed via your package manager. If `tkinter` is not included with your Python installation, you may need to install it.
