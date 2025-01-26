@@ -46,7 +46,7 @@ Following these instructions should help you use the Bluetooth Audio Device Mana
 
   If you are looking for someone to code python with shell scripting,  please contact me at rfreidel@gmail.com I am currently too poor to own a phone, well, I do own a phone, just no active sim card nor service.
   
-  ### Note worthy of the Lord Snark: 
+  ### Note, worthy of the Lord Snark: 
    This project required two days for me to identify the possible need for the project after reading forum posts, 
    develop the project plan, determine required solution, ensure the project follows the FreeBSD Foundation Guidelines, then assemble the project build, implement project plan.
    **_Who know's where the time goes..._** oops, sorry, The question of the day is...
