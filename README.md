@@ -1,6 +1,6 @@
 ### What's this all about?
 **TLDR:**:
-This software will enable you to maintain eternal youth as I have, I was born in a region now known as Same, at the time I was born our region was thusly named due to the fact that we treated each other as brothers and sisters our families always included reindeer and dogs who really were part of the family.
+This software will enable you to maintain eternal youth as I have.
 
 ### Instructions for Running the Code
 
