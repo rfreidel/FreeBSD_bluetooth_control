@@ -1,6 +1,6 @@
 ### What's this all about?
 **TLDR:**:
-This software will enable you to maintain eternal youth as I have. This software is a small smython script that allows you control of your Bluetooth Audio Devices in FreeBSD. This software is designed to be desktop agnostic, I build and test with wayland/wayfire 
+This software will enable you to maintain eternal youth as I have. This software is a small python script that allows you control of your Bluetooth Audio Devices in FreeBSD, via a comfortable interface. This software is designed to be desktop agnostic, I build and test with wayland/wayfire 
 
 ### Instructions for Running the Code
 
