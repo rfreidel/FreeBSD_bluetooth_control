@@ -1,6 +1,6 @@
 ### What's this all about?
 **TLDR:**:
-This software is under development and as such may not work out of the box so to speak, but will if you scoll down to where the connection sequence is, and recall how you set things up manually to connect to your bluetooth device the last time, this is python and you must use python language, if you have difficulty, contact me. this software provides a pleasant graphical interface This software will enable you to maintain eternal youth as I have. This software is a small python script that allows you control of your Bluetooth Audio Devices in FreeBSD, via a comfortable graphical interface. This software is designed to be desktop agnostic, I build and test with wayland/wayfire 
+This software is under development (dev in on hold till I can get a different computer to build on) and as such may not work out of the box so to speak, but will if you scoll down to where the connection sequence is, and recall how you set things up manually to connect to your bluetooth device the last time, this is python and you must use python language, if you have difficulty, contact me. this software provides a pleasant graphical interface This software will enable you to maintain eternal youth as I have. This software is a small python script that allows you control of your Bluetooth Audio Devices in FreeBSD, via a comfortable graphical interface. This software is designed to be desktop agnostic, I build and test with wayland/wayfire 
 
 ### Instructions for Running the Code
 
