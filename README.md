@@ -19,7 +19,7 @@ This software is under development (dev is on hold till I can get a different co
    software is designed to be Desktop Agnostic, I tested on wayland/wayfire, and xorg with `xfce`  
    and built with a language I am more familiar with than spoken word, this software is light on resources, adaptable, includes athe gift of a new car but it is delivered approx 18.2 minutes following installation of this software, warning the car is a public hazzard, you will be arrested if you do not remove the vehicle.  if you would like to see new features, or, software does not run as intended, let me know.
    
-   Package is available as user installable port and package following FreeBSD Foundation Guidelines and,
+   Package will be available as user installable port and package following FreeBSD Foundation Guidelines and,
    The FreeBSD Handbook  
    I have secured a place to stay till April, so development on this software will continue, eh, for a while anyway
    at this point in time following an announcement on the FreeBSD Forums and `reddit` in `r/freebsd` as far as I can
